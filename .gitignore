@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+backend/uvicorn.log
+backend.log
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/dev.log
+
+# Local test artifacts
+sim_result.json
+fake_dem.tif
+*.local
+*.tsbuildinfo
